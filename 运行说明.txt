@@ -1,0 +1,5 @@
+运行说明：
+1.ENVIRON2文件为数据集m3dv_dataset的文件夹地址，运行前需要进行修改；
+2.代码采用pytorch框架，运行前需要安装好pytorch库
+3.MyNet_train.py为训练脚本，训练使用GPU进行，鉴于空间限制，训练集train_val中的数据未上传；
+4.MyNet_Predict.py为推断脚本，推断使用CPU进行，推断结果导出为final_submit.csv
