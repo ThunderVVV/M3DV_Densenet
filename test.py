@@ -32,7 +32,7 @@ class Md3vtestDataset(Dataset):
         return name, voxel
 
 def main():
-    csvFile = open("final_submit.csv", "w", newline='')
+    csvFile = open("submission.csv", "w", newline='')
     writer = csv.writer(csvFile)
     writer.writerow(["Id", "Predicted"])
     test_dataset = Md3vtestDataset(cropsize=32, transform=ToTensor())
